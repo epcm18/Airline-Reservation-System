@@ -1,4 +1,4 @@
 # Airline-Reservation-System
 
 Link to the ER diagram - Updated
-https://lucid.app/lucidchart/9655c6ec-ba99-4169-b2d1-7d602b7610fc/edit?invitationId=inv_14545d4d-f4b4-4f56-a602-703d51dce174&page=0_0#
+https://lucid.app/lucidchart/4e6e047f-0aeb-4bb1-8247-26ba4bb4e579/edit?viewport_loc=-1991%2C-1871%2C5037%2C2298%2C0_0&invitationId=inv_32675871-9ab8-4c8c-9a86-ae18c9f8b38f
