@@ -73,6 +73,7 @@ CREATE TABLE `Prices` (
 CREATE TABLE `Type` (
   `id` Varchar(50),
   `name` Varchar(50),
+  `discount_rate` Decimal(2,2),
   PRIMARY KEY (`id`)
 );
 
