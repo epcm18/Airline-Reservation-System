@@ -112,7 +112,7 @@ INSERT INTO `Prices` VALUES ('AIR00007', 'CLASS002', 126.00);
 INSERT INTO `Prices` VALUES ('AIR00007', 'CLASS003', 103.00);
 
 CREATE TABLE `Airplane` (
-  `airport_id` int,
+  `airport_id` Varchar(50),
   `modle` Varchar(50),
   `year` int,
   `country` Varchar(50),
@@ -140,6 +140,7 @@ CREATE TABLE `Trip` (
   FOREIGN KEY (`route_id`) REFERENCES `Prices`(`route_id`),
   FOREIGN KEY (`plane_id`) REFERENCES `Airplane`(`airport_id`)
 );
+INSERT INTO `Trip` VALUES ();
 
 CREATE TABLE `Seat` (
   `seat_id` Varchar(50),
@@ -234,4 +235,5 @@ CREATE TABLE `Location` (
   `parent` int,
   PRIMARY KEY (`location_id`)
 );
+INSERT INTO `Location` VALUES ('SRI00001', 'Sri Lanka', 0);
 
