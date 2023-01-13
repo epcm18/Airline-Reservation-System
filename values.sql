@@ -207,8 +207,9 @@ CREATE TABLE `Tripstatus` (
   FOREIGN KEY (`trip_status_id`) REFERENCES `Trip`(`tripstatus_id`)
 );
 INSERT INTO `Tripstatus` VALUES ('STATE001', 'INAIR');
-INSERT INTO `Tripstatus` VALUES ('STATE001', 'INAIR');
-INSERT INTO `Tripstatus` VALUES ('STATE001', 'INAIR');
+INSERT INTO `Tripstatus` VALUES ('STATE002', 'ONGROUND');
+INSERT INTO `Tripstatus` VALUES ('STATE003', 'DELAYED');
+INSERT INTO `Tripstatus` VALUES ('STATE004', 'CANCELED');
 
 CREATE TABLE `Role` (
   `role_id` Varchar(50),
