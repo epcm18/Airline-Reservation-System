@@ -138,8 +138,9 @@ CREATE TABLE `Trip` (
   `tripstatus_id` int,
   PRIMARY KEY (`trip_id`),
   FOREIGN KEY (`route_id`) REFERENCES `Prices`(`route_id`),
-  FOREIGN KEY (`plane_id`) REFERENCES `Airplane`(`airport_id`)
+  FOREIGN KEY (`plane_id`) REFERENCES `Airplane`(`airplane_id`)
 );
+INSERT INTO `Trip` VALUES ('TRIP000D1', 2023-01-14 07:10:00, 2023-01-14 12:20:00, 'AIR00001', '12345F', );
 INSERT INTO `Trip` VALUES ('TRIP000D1', 2023-01-14 07:10:00, 2023-01-14 12:20:00, 'AIR00001', '12345F', );
 
 CREATE TABLE `Seat` (
