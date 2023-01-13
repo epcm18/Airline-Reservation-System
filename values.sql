@@ -235,5 +235,10 @@ CREATE TABLE `Location` (
   `parent` int,
   PRIMARY KEY (`location_id`)
 );
-INSERT INTO `Location` VALUES ('SRI00001', 'Sri Lanka', 0);
+INSERT INTO `Location` VALUES (00001, 'Sri Lanka', null);
+INSERT INTO `Location` VALUES (00011, 'Colombo', 00001);
+INSERT INTO `Location` VALUES (00012, 'Hambantota', 00001);
+INSERT INTO `Location` VALUES (00002, 'India', null);
+INSERT INTO `Location` VALUES (00021, 'Mumbhai', 00002);
+INSERT INTO `Location` VALUES (00022, 'New Delhi', 00002);
 
