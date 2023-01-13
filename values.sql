@@ -275,4 +275,12 @@ INSERT INTO `Location` VALUES (00012, 'Hambantota', 00001);
 INSERT INTO `Location` VALUES (00002, 'India', null);
 INSERT INTO `Location` VALUES (00021, 'Mumbhai', 00002);
 INSERT INTO `Location` VALUES (00022, 'New Delhi', 00002);
-
+INSERT INTO `Location` VALUES (00023, 'Chennai', 00002);
+INSERT INTO `Location` VALUES (00003, 'Indonesia', null);
+INSERT INTO `Location` VALUES (00031, 'Jakarta', 00003);
+INSERT INTO `Location` VALUES (00032, 'Bali', 00003);
+INSERT INTO `Location` VALUES (00004, 'Thailand', null);
+INSERT INTO `Location` VALUES (00041, 'Bankok', 00004);
+INSERT INTO `Location` VALUES (00042, 'Bankok', 00004);
+INSERT INTO `Location` VALUES (00005, 'Singapore', null);
+INSERT INTO `Location` VALUES (00051, 'Changi', 00005);
