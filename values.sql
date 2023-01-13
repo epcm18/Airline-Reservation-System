@@ -14,6 +14,7 @@ CREATE TABLE `Type` (
 );
 INSERT INTO `Type` VALUES ('00001', 'Frequnet');
 INSERT INTO `Type` VALUES ('00002', 'Gold');
+INSERT INTO `Type` VALUES ('00003', 'Regular');
 
 CREATE TABLE `Registered_User` (
   `id` Varchar(50),
