@@ -201,11 +201,14 @@ INSERT INTO `Class` VALUES ('CLASS002', 'Buisness');
 INSERT INTO `Class` VALUES ('CLASS003', 'Economy');
 
 CREATE TABLE `Tripstatus` (
-  `trip_status_id` int,
+  `trip_status_id` Varchar(50),
   `title` Varchar(50),
   PRIMARY KEY (`trip_status_id`),
   FOREIGN KEY (`trip_status_id`) REFERENCES `Trip`(`tripstatus_id`)
 );
+INSERT INTO `Tripstatus` VALUES ('STATE001', 'INAIR');
+INSERT INTO `Tripstatus` VALUES ('STATE001', 'INAIR');
+INSERT INTO `Tripstatus` VALUES ('STATE001', 'INAIR');
 
 CREATE TABLE `Role` (
   `role_id` Varchar(50),
